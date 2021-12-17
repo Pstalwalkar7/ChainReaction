@@ -5,11 +5,12 @@
     b. Input the size of the grid (small, med, large)
     c. Input the number of players
     d. Which player is which color (Options should be mutually exclusive)
-    e. Other selctions (say: Background Music)
+    e. Other selections (say: Background Music)
     f. Instantiate the Game with given specifications
 
 2. Game Play
-    a. Go turn by turn, prompting player's move.
+    a. Display Board at all times.
+    b. Go turn by turn, prompting player's move.
     b. Detect if a player is no longer eligible to move (not their first move and their_count = 0)
     c. Detect the winner if any.
     d. Once played, run the chain reaction (increment neighbours and so on) - BFS.
